@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Wash</title>
+	<link rel="stylesheet" href=".//css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href=".//css/style.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<section class="header__inner">
+				<div>
+					<div class="header__inner_logo">
+						<img src=".//icons/Logo.png" alt="">
+					</div>
+				</div>
+				<div>
+					<div class="header__inner_links">
+						<a href="#">Главная</a>
+						<a href="#">FAQ</a>
+					</div>
+				</div>
+				<div class="header__links-wrapper">
+					<select class="header__inner_lang" name="" id="">
+						<option value="">Рус</option>
+						<option value="">Не рус</option>
+					</select>
+					<a href="#" class="header__inner_login">Войти</a>
+					<button class="header__inner_reg">
+						<a href="#">Регистрация</a>
+					</button>
+
+				</div>
+
+			</section>
+		</div>
+	</header>
+
+
+	<section class="main">
+		<div class="container main__container">
+			<div class="main__text">
+				<h2 class="main__text_suptitle">
+					Распоряжайся временем
+					<a href="#">эффективно.</a>
+				</h2>
+				<h1 class="main__text_title">
+					Просто выбери свою машинку.
+				</h1>
+				<h3 class="main__text_subtitle">
+					Используя компьютер, ноутбук или смартфон, получи контроль над стиркой, отслеживая выбранные циклы и
+					экономя время и деньги!
+				</h3>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="machines">
+		<div class="container container__mashines">
+			<div class="mashines__wrapper">
+				<div class="mashine busy">
+					<div class="mashine__top">
+						<div class="mashine__number">Стиральная Машинка №1</div>
+						<img src=".//icons/busy.png" alt="" class="machine__state-busy active">
+					</div>
+					<img class="line" src=".//icons/line.png" alt="">
+					<div class="mashine__middle">
+						<div class="avatar"><a href="#">CH</a></div>
+						<div class="time">Времени осталось:</div>
+						<div class="time_left">23 мин</div>
+						<progress max="100" value="65" class="progress_bar" role="progressbar"></progress>
+					</div>
+					<div class="mashine__status">
+						<img class="mashine__closed" src=".//icons/mashine__inner.svg" alt="">
+					</div>
+
+					<div>
+						<div class="expectation">
+
+							<div class="avatar__wrapper">
+								<div class="avatar client_1"><a class="" href="#">МА</a></div>
+								<div class="avatar client_2"><a class="" href="#">БС</a></div>
+								<div class="avatar client_3"><a class="" href="#">CH</a></div>
+								<div class="avatar client_4"><a class="" href="#">+2</a></div>
+							</div>
+							<button class="turn ">В очередь</button>
+						</div>
+
+					</div>
+					<button class="main_button">Начать</button>
+				</div>
+			</div>
+			<div class="mashines__wrapper">
+				<div class="mashine free">
+					<div class="mashine__top">
+						<div class="mashine__number">Стиральная Машинка №2</div>
+						<img src=".//icons/free.png" alt="" class="machine__state-busy free">
+					</div>
+					<img class="line" src=".//icons/line.png" alt="">
+					<div class="mashine__middle">
+						<div class="mashine__descr">
+							<span>Используй машинку сейчас</span>
+						</div>
+					</div>
+					<div class="mashine__status">
+						<img class="mashine__open" src=".//icons/mashine__inner_open.svg" alt="">
+					</div>
+					<img class="line__bottom" src=".//icons/line.png" alt="">
+
+					<button class="main_button free__mashine_button">Начать</button>
+				</div>
+			</div>
+			<div class="mashines__wrapper">
+				<div class="mashine broken">
+					<div class="mashine__top">
+						<div class="mashine__number">Стиральная Машинка №3</div>
+						<img src=".//icons/broken.png" alt="" class="machine__state-broken free">
+					</div>
+					<img class="line" src=".//icons/line.png" alt="">
+					<div class="mashine__middle">
+						<div class="mashine__descr">
+							<span>Машина ожидает техосмотр</span>
+						</div>
+					</div>
+					<div class="mashine__status">
+						<img class="mashine__closed" src=".//icons/mashine__inner.svg" alt="">
+					</div>
+					<img class="line__bottom" src=".//icons/line.png" alt="">
+				</div>
+			</div>
+			<div class="mashines__wrapper">
+				<div class="mashine offline">
+					<div class="mashine__top">
+						<div class="mashine__number">Стиральная Машинка №4</div>
+						<img src=".//icons/offline.png" alt="" class="machine__state-busy active">
+					</div>
+					<img class="line" src=".//icons/line.png" alt="">
+					<div class="mashine__middle">
+						<div class="mashine__descr">
+							<span>Машины нет на месте</span>
+						</div>
+					</div>
+					<div class="mashine__status">
+						<img class="mashine__closed" src=".//icons/mashine__inner.svg" alt="">
+					</div>
+					<img class="line__bottom" src=".//icons/line.png" alt="">
+				</div>
+			</div>
+			<div class="mashines__wrapper">
+				<div class="mashine mode">
+					<div class="mashine__top">
+						<div class="mashine__number">Стиральная Машинка №5</div>
+						<img src=".//icons/mode.png" alt="" class="machine__state-busy active">
+					</div>
+					<img class="line" src=".//icons/line.png" alt="">
+					<div class="mashine__middle">
+						<div class="mashine__descr">
+							<span>Сейчас выбирается режим</span>
+						</div>
+					</div>
+					<div class="mashine__status">
+						<img class="mashine__closed" src=".//icons/mashine__inner.svg" alt="">
+					</div>
+
+					<img class="line__bottom" src=".//icons/line.png" alt="">
+					<button class="main_button main_button-opacity">Начать</button>
+				</div>
+			</div>
+			<div class="mashines__wrapper">
+				<div class="mashine">
+					<div class="mashine__top">
+						<div class="mashine__number">Стиральная Машинка №6</div>
+						<img src=".//icons/busy.png" alt="" class="machine__state-busy active">
+					</div>
+					<img class="line" src=".//icons/line.png" alt="">
+					<div class="mashine__middle">
+						<div class="avatar"><a href="#">CH</a></div>
+						<div class="time">Времени осталось:</div>
+						<div class="time_left">23 мин</div>
+						<progress max="100" value="65" class="progress_bar" role="progressbar"></progress>
+					</div>
+					<div class="mashine__status">
+						<img class="mashine__closed" src=".//icons/mashine__inner.svg" alt="">
+					</div>
+
+					<div>
+						<div class="expectation">
+
+							<button class="turn-free">В очередь</button>
+						</div>
+
+					</div>
+					<button class="main_button">Начать</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__inner_links">
+					<a href="">Главная</a>
+					<a href="">FAQ</a>
+				</div>
+				<div class="footer__inner_logo">
+					<img src=".//icons/Logo.png" alt="">
+				</div>
+				<div class="footer__inner_lang">
+					<a href="">Рус</a>
+					<a href="">Укр</a>
+					<a href="">Eng</a>
+				</div>
+				<span class="footer__inner-line">
+
+				</span>
+
+				<div class="footer__inner_tel"><a href="tel:380953516712">+380 (95) 351 67 12</a></div>
+				<div class="footer__inner_email"><a href="#">company.name@gmail.com</a></div>
+
+				<div class="footer__inner_place">© 2020. Kharkiv. All Right Reserved</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>

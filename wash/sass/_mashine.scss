@@ -1,0 +1,210 @@
+.mashines__wrapper {
+    padding-bottom: 60px;
+
+}
+.mashine {
+    
+    display: inline-block;
+    justify-content: space-around;
+    position: relative;
+    background: url("../img/bgs/mashine_bg.png") center (center / cover) no-repeat;
+    width: 360px;
+    height: 530px;
+    margin: 0;
+    box-shadow: 30px 30px 105px rgba(120, 105, 227, 0.45), -30px -30px 80px rgba(255, 255, 255, 0.25),
+        inset 4px 4px 20px rgba(255, 255, 255, 0.5), inset -1px -1px 9px rgba(197, 197, 218, 0.8),
+        inset -1px -1px 2px rgba(145, 138, 181, 0.74), inset 8px 9px 17px #ffffff;
+    border-radius: 17px;
+    background-image: linear-gradient(136deg, #ffffff 0%, #f5f7fa 100%);
+    
+    &__top {
+        height: 74px;
+        padding: 28px 0 28px 24px;
+    }
+    &__number {
+        color: #201e41;
+        font-size: 15px;
+        font-weight: 700;
+        font-style: normal;
+        text-align: left;
+    }
+    .active, .free, .broken, .offline, .mode {
+        position: absolute;
+        top: -9px;
+        right: -9px;
+    }
+    .line {
+        position: absolute;
+        top: 76px;
+        left: 0;
+    }
+    .line__bottom {
+        position: absolute;
+        bottom: 108px;
+        left: 0;
+    }
+    &__middle {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-between;
+        padding: 15px 24px 0 24px;
+      
+        }
+        .time {
+            color: #201e41;
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0;
+            text-align: center;
+            padding: 3px 0 0 18px;
+        }
+        .time_left {
+            color: #5c25d3;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 3px 0 0 42px;
+
+        }
+        
+        .progress_bar {
+            position: absolute;
+            width: 232px;
+            top: 45px;
+            right: 39px;
+        }
+        .mashine__status {
+            .mashine__closed {
+                display: block;
+                margin: -8px auto -30px;
+                }
+        }
+    &__open {
+        display: block;
+        margin: 23px auto -40px -20px;
+    }
+        .avatar {
+            position: relative;
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+            border: 2px solid #ffffff;
+            background-color: #e0ddff;
+            margin: 0;
+            a {
+                position: absolute;
+                top: 26%;
+                left: 27%;
+                font-size: 14px;
+                font-weight: 700;
+                text-align: center;
+    
+            }
+       
+        
+    
+        }
+        .expectation {
+            display: inline-flex;
+            justify-content: space-between;
+            position: relative;
+            width: 300px;
+            height: 48px;
+            margin: 30px 30px 20px 30px;
+
+            .client_1 {
+                z-index: 1;
+                left: -5px;
+            }
+            .client_2 {
+                z-index: 2;
+                left: -25px;
+            }
+            .client_3 {
+                z-index: 3;
+                left: -45px;
+            }
+            .client_4 {
+                z-index: 4;
+                left: 90px;
+                top: -55px;
+            }
+            .turn {
+                position: relative;
+                width: 173px;
+                height: 48px;
+                border-radius: 24px;
+                border: 2px solid #d2d7e5;
+                text-align: center;
+                padding-left: 25px;
+                background: none;
+                font-weight: 400;
+                font-size: 15px;
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    background: url('../icons/turn.svg') center (center/cover) no-repeat;
+                    width: 17px;
+                    height: 13px;
+                    color: #6b35df;
+                    left: 19px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            
+    }
+}
+.mashine {
+    &__descr {
+        margin-top: 12px;
+    }
+    
+}
+
+}
+.mashine.offline {
+    opacity: 0.6;
+}
+.mashine>button {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.free__mashine_button {
+    margin-top: 103px;
+}
+.main_button-opacity {
+    opacity: 0.6;
+    margin-top: 98px;
+}
+.broken, .offline, .mode {
+    .mashine__status {
+        margin-top: 14px;
+    }
+}
+
+.turn-free {
+    position: relative;
+    width: 300px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #d2d7e5;
+    text-align: center;
+    padding-left: 25px;
+    background: none;
+    font-weight: 400;
+    font-size: 15px;
+    &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        background: url('../icons/turn.svg') center (center/cover) no-repeat;
+        width: 17px;
+        height: 13px;
+        color: #6b35df;
+        left: 96px;
+        top: 50%;
+        transform: translateY(-50%);
+}
+}
